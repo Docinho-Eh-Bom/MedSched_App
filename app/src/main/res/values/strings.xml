@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MedSched_App</string>
+    <string-array name="roles_array">
+        <item>Patient</item>
+        <item>Medic</item>
+    </string-array>
+</resources>

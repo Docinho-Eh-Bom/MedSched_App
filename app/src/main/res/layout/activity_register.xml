@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/register_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="REGISTRO"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/firstName_input"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:hint="Nome" />
+
+        <EditText
+            android:id="@+id/lastName_input"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="12dp"
+            android:hint="Sobrenome" />
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="12dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="12dp"
+            android:hint="Senha"
+            android:inputType="textPassword" />
+
+        <Spinner
+            android:id="@+id/roleSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/roles_array" />
+
+        <FrameLayout
+            android:id="@+id/roleFieldsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="CONFIRMAR" />
+    </LinearLayout>
+</ScrollView>
