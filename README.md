@@ -16,6 +16,7 @@ A API (que era para consumir, só que muito mais simplificada):
 https://medsched-api-1.onrender.com
 
 ## Estrutura do Projeto
+```graphql
 MedSched_App/
 ├── model/ # Entidades Room (Consult, Medic, Patient)
 ├── req_res/ # Modelos de requisição e resposta Retrofit
@@ -25,4 +26,4 @@ MedSched_App/
 ├── repo/ # MedSched Repository e MapToRoom
 ├──activities/ # Home,Login e Register activities
 └── StartPage.java
-
+```
